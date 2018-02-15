@@ -10,11 +10,13 @@ int main()
   string First;
   string Last;
   int lucky; 
+  int len;
   //get user input
   cout << "What is your first name?\n"; 
   cin >> First; 
   cout << "What is your last name?\n";
   cin >> Last;
+  len = Last.length();
   //tell fortune
   cout << "Welcome, " << First[0];
   cout << "." << Last[0];
@@ -29,7 +31,7 @@ int main()
   {
   cout << "you should keep a low profile.\n";
   }
-  if ( Last[0] == 65 || Last[0] == 69 || Last[0] == 73 || Last[0] == 79 || Last[0] == 85 || Last[0] == 97 || Last[0] == 101 || Last[0] == 105 || Last[0] == 111 || Last[0] == 117 ) 
+  if ( Last[len-1] == 'a' || Last[len-1] == 101 || Last[len-1] == 105 || Last[len-1] == 111 || Last[len-1] == 117 ) 
   { 
   cout << "you have already met your true love.\n"; 
   } 
