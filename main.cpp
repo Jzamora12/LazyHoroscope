@@ -16,8 +16,10 @@ int main()
   cout << "What is your last name?\n";
   cin >> Last;
   //tell fortune
-  cout << "Welcome," << First[0] << Last[0];
-  cout << ",here is your fortune...\n";
+  cout << "Welcome, " << First[0];
+  cout << "." << Last[0];
+  cout << ".";
+  cout << ", here is your fortune...\n";
   cout << "your lucky number is " << First.length() + Last.length() <<endl;
   if ( First[0] == 65 || First[0] == 69 || First[0] == 73 || First[0] == 79 || First[0] == 85 || First[0] ==97 || First[0] == 101 || First[0] == 105 || First[0] == 111 || First[0] == 117 ) 
   {
