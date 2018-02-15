@@ -25,7 +25,7 @@ int main()
   cout << "your lucky number is " << First.length() + Last.length() <<endl;
   if ( First[0] == 65 || First[0] == 69 || First[0] == 73 || First[0] == 79 || First[0] == 85 || First[0] ==97 || First[0] == 101 || First[0] == 105 || First[0] == 111 || First[0] == 117 ) 
   {
-  cout << "you are destined to to be famous!\n";
+  cout << "you are destined to be famous!\n";
   }
   else 
   {
